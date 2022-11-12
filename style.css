@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Write CSS code below */
+.main-content {
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 300px 700px;
+}
+.left-section {
+    background-color: rgb(66, 69, 70);
+}
+.right-section {
+    background-color: rgb(236, 243, 236);
+    background-blend-mode: darken;
+}
+.left-content {
+    padding: 1rem;
+}
+.Profile-Pic {
+    width: 60%;
+    border: 5px solid#fff;
+    border-radius: 30%;
+    display: block;
+    margin: auto;
+}
+.Name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.8rem;
+    letter-spacing: 0.02px;
+}
+.designation {
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    color: white;
+    border-bottom: double white;
+
+}
+.description {
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    line-height: 1.8;
+}
+.contact-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+a {
+    cursor: pointer;
+}
+.contact-details {
+    color: #fff;
+    margin-top: 0.5rem;
+}
+.contact-label {
+    font-size: 0.8rem;
+    letter-spacing: 0.8px;
+}
+.icon {
+    margin: 0 0.5rem;
+}
+.email,
+.telephone,
+.address {
+    display: flex;
+    margin-bottom: 0.3rem;
+}
+.skills {
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+}
+.skill-name {
+    font-size: 0.65rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+    text-align: left;
+}
+.progress-bar {
+    height: 4px;
+    border: 1px solid white;
+    background-color: #fff;
+    width: 70%;
+}
+.progress-css {
+    width: 50%;
+}
+.progress-js {
+    width: 60%;
+}
+.progress-react{
+    width: 70%;
+}
+.skill {
+    margin-bottom: 1rem;
+}
+.right-main-content {
+    padding: 2rem 3rem;
+}
+.right-title {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    letter-spacing: 1.3;
+}
+.education-detail {
+    display: flex;
+}
+.about-me-section {
+    margin-bottom: 2rem;
+}
+.education-detail {
+    margin: 1rem 0;
+
+}
+.left-sections {
+    margin-right: 4rem;
+}
+.experience-detail {
+    display: flex;
+}
+
+ @media (max-width: 674px) {
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+ }
